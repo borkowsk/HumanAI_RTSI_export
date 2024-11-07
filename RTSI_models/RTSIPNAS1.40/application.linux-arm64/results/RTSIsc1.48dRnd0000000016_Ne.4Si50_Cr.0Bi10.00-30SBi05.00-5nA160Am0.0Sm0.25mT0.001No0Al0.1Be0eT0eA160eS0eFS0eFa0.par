@@ -1,0 +1,42 @@
+NUMBER_OF_REPET	:	10
+MAX_STEP	:	640
+RANDSEED	:	16
+FRAMEFREQ	:	100
+Side of world	:	50
+currCriterion	:	0
+noiseInfoProb	:	0
+epochOfAmbient	:	160	COLOR:	8800ffff
+epochOfScramblers	:	0	COLOR:	88ff7700
+SCRAMBLERS_FLIP_EPO	:	0	COLOR:	88ff00ff
+epochOfTrust	:	0	COLOR:	88ddffdd
+AGENTS_FLIP_EPO	:	0	COLOR:	88ddffdd
+phaseStepForAmbient	:	0.0392699
+MAXAMP	:	20
+minNumOfWaves	:	4
+maxNumOfWaves	:	8
+IntMode	:	1
+minNumOfScramblers	:	35
+maxNumOfScramblers	:	40
+SCRAMB_BIAS_MEAN	:	5
+SCRAMB_BIAS_DISP	:	5
+epochOfScramblers	:	0
+ScramblerEuclid	:	0
+ScramblerMOVEMENT	:	0.25
+NumberOfAgents	:	160
+AgentMOVEMENT	:	0
+AgentBrownian	:	0
+networkType	:	4
+epochOfTrust	:	0
+symetricConnections	:	1
+minInitialTrust	:	0.5
+maxInitialTrust	:	0.5
+maxERRORofSensors	:	10
+MIN_TRUST	:	0.001
+BIASmean for typical agents	:	10
+BIAS_DISP	:	30
+MAX_RECUR_LEVEL	:	6
+ALFA	:	0.1
+BETA	:	0
+GAMA	:	0.1
+LENGTH of LEARNING	:	-1
+STEPSperSTAT	:	1

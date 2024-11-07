@@ -1,0 +1,4 @@
+#Translacja C++ nie ma w tej wersji szans bo kolejność klas jest niewłaściwa
+cppsrc/
+userclasses.sed
+CMakeLists.txt

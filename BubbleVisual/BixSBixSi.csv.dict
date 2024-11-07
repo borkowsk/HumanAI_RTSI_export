@@ -1,0 +1,118 @@
+﻿$REPET	From what repetition (model run) data are. Or meaningless mean value.
+StepCounter	Current simulation step or number of simulation steps
+ambientTemp	Ambient temperature in the step or its average
+meanTemp	Average temperature of all cells (in step or its average from simulation)
+meanSensors	Average temperature reading from all sensors (in the step or its average from the simulation)
+meanOpinion	Agents' average opinion (in step or its average from simulation)
+sdevOpinion	Standard deviation of the agents' opinion (in the step or its averaged from the simulation)
+minOpinion	Minimum from agents' opinions (in step or its averaged from simulation)
+maxOpinion	Maximum from agents' opinions (in step or its averaged from simulation)
+meanReliability	Agents' average confidence in their sensors (in or averaged from the simulation step)
+mnOpinErr!	abs(meanOpinion-meanTemp): Agents' opinion error in relation to real mean temperature (in step or its averaged from simulation)
+mnSensErr!	abs(meanSensors-meanTemp): Agents' sensors error in relation to real mean temperature (in step or its averaged from simulation)
+mnOpSensDiff!	abs(meanOpinion-meanSensors): The difference between the agents' opinion and the average of the sensors (in the step or its average from the simulation)
+mnOpAmbDiff!	abs(meanOpinion-AmbientTemp): The difference between the agents' opinion and the ambient temperature (in step or its averaging from simulation)
+mnSensAmbDiff!	abs(meanSensors-AmbientTemp): The difference between the agents' sensors and the ambient temperature (in step or its averaging from simulation)
+ratioRTSI2WoC	mnOpAmbDiff/mnSensAmbDiff: ratio of RTSI opinion error to Helbings like 'wisdom of crowd' error (in step or its averaging from simulation)
+providersCount	The number of agents that provided information to someone during last step  (in step or its average from simulation)
+cntProviders	The number of agents that provided information in the previous step and also in this step  (in step or its average from simulation)
+newProviders	The number of agents that provided information in this step and not in the previous one  (in step or its average from simulation)
+delProviders	The number of agents that provided information in the previous step and not in this step  (in step or its average from simulation)
+self_net	Counter, when agent  use own sensor as network information during step (or mean for whole simulation)
+meanDistSelf	average sensor error: MEAN(AGENTS, abs(outsideTemp - mySensor.lastMeasurement) ) 
+meanDistNet	average error of the entire network: MEAN(AGENTS, abs(outsideTemp - netOpinion) )
+liveCount	Number of living agents. Actually unnecessary in this model because it is constant - they cannot die.
+link_up	How many times in step link weight goes up (or mean for whole simulation)
+link_dw	How many times in step link weight goes down (or mean for whole simulation)
+sensor_up	How many times in step sensor weight goes up (or mean for whole simulation)
+sensor_dw	How many times in step sensor weight goes down (or mean for whole simulation)
+howManyLinks	The number of connections between agents, also very weak ones.
+Ambient_waves_numb	The number of wave components of the ambient temperature
+Scrambs_numb	Number of temperature scramblers
+HistTooLow	Number of values to low for histogram of weights
+H0	Histogram bucket <0..0.1)
+H1	Histogram bucket <0.1..0.2)
+H2	Histogram bucket <0.2..0.3)
+H3	Histogram bucket <0.3..0.4)
+H4	Histogram bucket <0.4..0.5)
+H5	Histogram bucket <0.5..0.6)
+H6	Histogram bucket <0.6..0.7)
+H7	Histogram bucket <0.7..0.8)
+H8	Histogram bucket <0.8..0.9)
+H9	Histogram bucket <0.9..0.999999)
+HistTooHig	Number of values to hight for histogram of weights
+filename	Name of source file for this integration row
+Bi	Requested mean of sensors
+0Bi_FLOAT_-	Requested dispersion of sensors
+SBi	Requested mean of scramblers
+NUMBER_OF_REPET	Number of reperitions
+MAX_STEP	Number of steps
+RANDSEED	Seed of pseudo-random number generator 
+FRAMEFREQ	Visualisation frequency
+Side_of_world	Side of simulation world
+currCriterion	Which optimalisation criterion 
+noiseInfoProb	Noise in ....
+epochOfAmbient	Epoch of ambient change
+epochOfScramblers	Epoch of scramblers change (scramblers set parsistence)
+SCRAMBLERS_FLIP_EPO	Epoch of scramblers flip-flop
+epochOfTrust	Epoch of trust
+AGENTS_FLIP_EPO	Epoch of agents flip-flop
+phaseStepForAmbient	Phase step for ambient temperature change
+MAXAMP	Maximum amlitude of ambient(?)
+minNumOfWaves	Minimum number of waves in ambient temperature
+maxNumOfWaves	Maximum number of waves in ambient temperature
+IntMode	Integer mode for agents and scramblers position. 
+minNumOfScramblers	Minimum number of scramblers
+maxNumOfScramblers	Maximum number of scramblers
+SCRAMB_BIAS_MEAN	Mean of scramblers bias
+SCRAMB_BIAS_DISP	Dispersion of scrambler bias
+ScramblerEuclid	Eclidean metric for scramblers
+ScramblerMOVEMENT	Probability of scramblers movement
+NumberOfAgents	Number of agents
+AgentMOVEMENT	Probability of agents movement
+AgentBrownian	Brownian movement of agents
+networkType	Network topology
+symetricConnections	Network with fully symetric commenctions
+minInitialTrust	???
+maxInitialTrust	???
+maxERRORofSensors	???
+MIN_TRUST	???
+BIASmean_for_typical_agents	Requested mean of sensors
+BIAS_DISP	Requested dispersion of sensors
+MAX_RECUR_LEVEL	???
+ALFA		???
+BETA	???
+GAMA	???
+LENGTH_of_LEARNING	???
+STEPSperSTAT	???
+REAL_REPET	Real number of repetitions
+LAST_REP_ST	Last repetition
+OpiAmbDif_fin_N	N from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_MIN	Minimum from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_HAMN	Harmonic Mean from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_SQMN	Squre root mean from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_MEAN	Average from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_QUMN	Quadratic mean from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_MAX	Maximum from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_STDD	Standard deviation from statistics of opinion vs. ambient diference. 
+OpiAmbDif_fin_MED	Median from statistics of opinion vs. ambient diference. 
+SenAmbDif_fin_N	N from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_MIN	Minimum from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_HAMN	Harmonic Mean from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_SQMN	Squre root mean from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_MEAN	Average from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_QUMN	Quadratic mean from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_MAX	Maximum from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_STDD	Standard deviation from statistics of sensor vs. ambient diference. 
+SenAmbDif_fin_MED	Median from statistics of sensor vs. ambient diference. 
+TomRatio_fin_N	N from statistics of "Tomasz Ratio" 
+TomRatio_fin_MIN	Minimum from statistics of "Tomasz Ratio" 
+TomRatio_fin_HAMN	Harmonic Mean from statistics of "Tomasz Ratio" 
+TomRatio_fin_SQMN	Squre root mean from statistics of "Tomasz Ratio" 
+TomRatio_fin_MEAN	Average from statistics of "Tomasz Ratio" 
+TomRatio_fin_QUMN	Quadratic mean from statistics of "Tomasz Ratio" 
+TomRatio_fin_MAX	Maximum from statistics of "Tomasz Ratio" 
+TomRatio_fin_STDD	Standard deviation from statistics of "Tomasz Ratio" 
+TomRatio_fin_MED	Median from statistics of "Tomasz Ratio" 
+
+
